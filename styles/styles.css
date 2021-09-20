@@ -20,18 +20,23 @@ h1 {
 h2 {
     font-size: 64px;
 }
-h4 {
+h3 {
     font-size: 48px;
+}
+
+img .crochet {
+    margin-right: 40px;
 }
 
 p {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 30px;
 }
 
 nav {
-    padding: 5px 0;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul {
@@ -98,7 +103,7 @@ footer .social-links a:hover {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .hero p {
@@ -146,6 +151,8 @@ footer .social-links a:hover {
 .content p {
     font-size: 14px;
 }
+
+
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
@@ -176,11 +183,11 @@ footer .social-links a:hover {
     h2 {
         font-size: 40px;
     }
-    h4 {
+    h3 {
         font-size: 16px;
     }
     .hero {
-        padding: 80px 20px;
+        padding: 70px 20px;
     }
     .project-description {
         padding: 0;
@@ -191,7 +198,5 @@ footer .social-links a:hover {
         padding: 0;
     }
 
-    footer .contact-box {
-        padding: 15px;
-    }
+ 
 }
